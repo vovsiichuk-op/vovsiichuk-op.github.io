@@ -9,23 +9,17 @@
       gtag('js', new Date());
 
       gtag('config', 'G-5KGFT1QEMW');
-      gtag('event', 'tag_source', {
-          'property_name': 'main',
+      gtag('config', 'G-XLT9QCC4CZ');
+
+      gtag('event', 'my_tag_source', {
+          'send_to': 'G-5KGFT1QEMW',
+          'tag_property_name': 'main',
           'tag_account': 'G-5KGFT1QEMW'
       });
-  </script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XLT9QCC4CZ"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-XLT9QCC4CZ');
-      gtag('event', 'tag_source', {
-        'property_name': 'alternative',
-        'tag_account': 'G-XLT9QCC4CZ'
+      gtag('event', 'my_tag_source', {
+          'send_to': 'G-XLT9QCC4CZ',
+          'tag_property_name': 'alternative',
+          'tag_account': 'G-XLT9QCC4CZ'
       });
   </script>
 
